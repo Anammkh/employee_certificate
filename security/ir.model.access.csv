@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_employee_certificate,access_employee_certificate,model_employee_certificate,employee_certificate.employee_certificate_group_hr,1,1,1,1
+

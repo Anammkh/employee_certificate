@@ -1,0 +1,9 @@
+<odoo>
+  <data noupdate="1">
+    <record id="employee_certificate_group_hr" model="res.groups">
+      <field name="name">HR Manager (Certificate)</field>
+      <field name="category_id" ref="base.module_category_human_resources"/>
+    </record>
+  </data>
+</odoo>
+
