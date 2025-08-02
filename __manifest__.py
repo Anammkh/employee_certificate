@@ -1,10 +1,15 @@
 {
     'name': 'Employee Certificate',
-    'version': '1.0',
-    'depends': ['hr'],
-    'author': 'Your Name',
+    'version': '16.0.1.0.0',
+    'summary': 'Manage employee certificates linked to employees',
+    'description': """
+This module allows HR managers to manage employee certificates and generate PDF reports.
+""",
+    'author': 'Khoirul Anam',
+    'website': 'https://github.com/Anammkh',
     'category': 'Human Resources',
-    'description': 'Manage employee certificates',
+    'license': 'LGPL-3',
+    'depends': ['hr'],
     'data': [
         'security/security.xml',
         'security/ir.model.access.csv',
@@ -15,5 +20,5 @@
     ],
     'installable': True,
     'application': False,
+    'auto_install': False,
 }
-
